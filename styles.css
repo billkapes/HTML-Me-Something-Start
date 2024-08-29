@@ -48,13 +48,25 @@ figcaption {
 body {
     width: 100%;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 8px;
     /* background-image: url(m83.jpg); */
     /* background-position: center; */
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(m83.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#testP {
+    color: green;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
 }
 
 * {

@@ -1,1 +1,76 @@
-/* Write your CSS here! */
+h2 {
+    color:white;
+    /* background-color: rgb(138, 43, 226); */
+    padding: 5px;
+    background-color: rgba(14, 13, 13, 0.747);
+}
+
+header h1 {
+    color:white;
+    text-align: center;
+}
+
+header, main, footer {
+    background-color: rgba(54, 54, 54, 0.5);
+    color: white;
+}
+
+figure {
+    padding: 1.25em;
+
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+p {
+    color:white;
+    padding: 1.25em;
+}
+
+figcaption {
+    color:white;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    /* background-image: url(m83.jpg); */
+    /* background-position: center; */
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(m83.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
